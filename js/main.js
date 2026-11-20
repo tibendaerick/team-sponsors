@@ -41,7 +41,7 @@
   $("uses").innerHTML = C.uses.map(function (u) { return "<li>" + u + "</li>"; }).join("");
 
   /* WhatsApp links */
-  $("rsvp").href = wa("Hello, I will attend the " + C.event + " on " + C.dateLabel + ".");
+  $("rsvp").href = wa("Hello, I will surely attend the " + C.event + " on " + C.dateLabel + ".");
   $("pledge").href = wa("Hello, I would like to support the " + C.event + ". My pledge: UGX ____ . My name: ____");
   $("wa").href = wa("Hello, I have a question about the " + C.event + ".");
 
